@@ -2,7 +2,33 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+### Steps you need to take before running this project:
+
+#### 1. Install dependencies:
+
+```
+npm install
+```
+
+#### 2. Go to the `crud.mongodb.js` file:
+
+And then follow the instructions provided to create initial sample data.
+
+##### Note: Check the data is updated to your local/desired MongoDB DataBase
+
+#### 3. Create an .env file:
+
+Now write your MongoDB Database link as shown below:
+
+```
+MONGODB_URI=mongodb_link/database_name
+```
+
+##### Note: Database named "shop" is used in this project
+
+#### 4. Run the development server:
+
+##### Note: Recheck the all instructions given above before running the server
 
 ```bash
 npm run dev
