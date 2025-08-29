@@ -16,7 +16,7 @@ And then follow the instructions provided to create initial sample data.
 
 ##### Note: Check the data is updated to your local/desired MongoDB DataBase
 
-#### 3. Create an .env file:
+#### 3. Create an .env.local file:
 
 Now write your MongoDB Database link as shown below:
 
